@@ -22,5 +22,8 @@ class Planet {
 };
 int main()
 {
-   
+    Planet venus;
+    venus.inputData();
+    cout << "namanya adalah " << venus.nama << endl;
+    cout << "diameternya adalah " << venus.diameter << endl;
 }
