@@ -26,4 +26,12 @@ class persegipanjang
 
 };
 
+int main()
+{
+    persegipanjang per;
+    per.inputData();
+    per.menghitungluas();
+    per.outputData();
+    return 0;
 
+}
