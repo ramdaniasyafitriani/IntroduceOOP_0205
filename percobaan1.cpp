@@ -9,7 +9,7 @@ class Planet {
         float diameter;
 
         void displayData(){
-            cout << "halo aku planet" << nama << ", ukuranku" << diameter << ", gravitasiku" << gravitasi << endl; 
+            cout << "halo aku planet " << nama << ", ukuranku " << diameter << ", gravitasiku " << gravitasi << endl; 
         }
     void inputData(){
         cout << "input nama : ";
@@ -26,4 +26,6 @@ int main()
     venus.inputData();
     cout << "namanya adalah " << venus.nama << endl;
     cout << "diameternya adalah " << venus.diameter << endl;
+
+    venus.displayData();
 }
